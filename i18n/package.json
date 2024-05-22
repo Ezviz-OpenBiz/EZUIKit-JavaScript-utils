@@ -1,0 +1,29 @@
+{
+  "name": "@ezuikit/utils-i18n",
+  "version": "1.0.0-alpha.0",
+  "description": "i18n utils",
+  "main": "dist/index.js",
+  "umd": "dist/index.umd.js",
+  "types": "dist/types/index.d.ts",
+  "module": "dist/index.esm.js",
+  "exports": {
+    "types": "./dist/types/index.d.ts",
+    "import": "./dist/index.esm.js",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "i18n",
+    "ezuikit",
+    "ezuikit-utils",
+    "utils"
+  ],
+  "author": "Ezviz-OpenBiz",
+  "license": "MIT",
+  "dependencies": {
+    "i18n-js": "^4.3.2",
+    "es5-ext": "0.10.53"
+  }
+}

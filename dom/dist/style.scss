@@ -1,0 +1,37 @@
+$prefixCls: ezui;
+
+:root {
+  // default style var
+  --font-size: 14px;
+  --color: #fff;
+  --background-color: #000;
+  --active-color: rgb(24, 144, 255);
+
+  // button style var
+  --botton-color: var(--color);
+  --botton-border-color: var(--color);
+
+  // foote style var
+  --footer-height: 48px;
+  --footer-icon-size: 27px;
+  --footer-color: --color;
+  --footer-background-color: var(--background-color, #000);
+  --footer-active-color: var(--active-color, rgb(24, 144, 255));
+
+  // header style var
+  --header-height: var(--footer-height, 48px);
+  --header-icon-size: 27px;
+  --header-color: var(--footer-color);
+  --header-background-color: var(-footer-bg-color, #000);
+  --header-active-color: var(--footer-active-color, rgb(24, 144, 255));
+
+  // date picker style var
+  --date-picker-header-height: 34px;
+  --date-picker-color: #595959;
+  --date-picker-primary-color: rgb(24, 144, 255);
+  --date-picker-font-size: 14px;
+  --date-picker-border-color: rgba(5, 5, 5, 0.06);
+  --date-picker-disable-border-color: rgba(0, 0, 0, 0.2);
+  --data-picker-scrollbar-width: 8px;
+  --data-picker-border-radius: 2px;
+}

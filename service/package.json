@@ -1,0 +1,25 @@
+{
+  "name": "@ezuikit/utils-service",
+  "version": "1.0.0-alpha.10",
+  "description": "service utils",
+  "main": "dist/index.js",
+  "umd": "dist/index.umd.js",
+  "types": "dist/types/index.d.ts",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "service",
+    "ezuikit",
+    "ezuikit-utils",
+    "utils"
+  ],
+  "author": "Ezviz-OpenBiz",
+  "license": "MIT",
+  "dependencies": {
+    "@ezuikit/utils-tools": "1.0.0-alpha.6",
+    "dayjs": "^1.11.10",
+    "es5-ext": "0.10.53"
+  }
+}
